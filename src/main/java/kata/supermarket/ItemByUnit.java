@@ -27,4 +27,9 @@ public class ItemByUnit implements Item {
     public Set<DiscountCode> discountCodes() {
         return product.discountCodes();
     }
+
+    @Override
+    public ProductId productId() {
+        return product.productId();
+    }
 }
